@@ -1,0 +1,19 @@
+.cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 16px;
+}
+
+.card-category {
+  padding: 32px;
+  height: 300px;
+  border-radius: 16px;
+  text-align: center;
+}
+
+.card-category a {
+  text-decoration: none;
+  font-weight: bold;
+  color: red;
+  margin-top: 2000px;
+}
